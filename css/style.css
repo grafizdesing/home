@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: auto;
+	padding: 2em;
+}
+
+.rojo {
+	background: red;
+	height: 10vh;
+}
+.azul {
+	background: rgb(33, 82, 218);
+	height: 80vh;
+}
+.verde {
+	background: rgb(66, 189, 35);
+	height: 80vh;
+}
+.amarillo {
+	background: rgb(218, 190, 34);
+	height: 80vh;
+}
+.rosa {
+	background: rgb(229, 119, 233);
+	height: 10vh;
+}
+
+
+
+.header {
+	background: rgb(48, 182, 235);
+	height: 10vh;
+	border: 2px solid rgb(255, 255, 255);
+}
+.menu {
+	background: rgb(227, 231, 233);
+	height: 90vh;
+}
+.menu1 {
+	background: rgb(190, 194, 196);
+	height: 90vh;
+}
+.image {
+	justify-content: center;
+	width: 450px;
+}
+span {
+	color: rgb(48, 182, 235);
+	font-size: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+    z-index: 2;
+}
+h1 {
+	color: black;
+	font-size: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+p {
+	color: black;
+	font-size: 15px;
+    text-align: center;
+}
+.sobremi{
+    margin: auto;
+    padding: 60px 10px;
+    color: black;
+}
+.sobremi .titulo-seccion{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: rgb(0, 204, 255);
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 204, 255);
+    text-decoration-thickness: 5px;
+}
